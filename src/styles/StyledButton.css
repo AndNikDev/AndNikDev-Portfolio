@@ -1,0 +1,29 @@
+.button-border {
+  background-color: transparent;
+  border: 3.5px solid #5a189a;
+  color: inherit;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: auto;
+  max-width: 110px;
+  text-align: center;
+}
+
+.button-border:hover {
+  background-color: #5a189a;
+  color: white;
+}
+
+.button-border a,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  color: inherit;
+}
