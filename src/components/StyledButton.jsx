@@ -1,5 +1,6 @@
 import "../styles/StyledButton.css";
 
+// eslint-disable-next-line react/prop-types
 const StyledButton = ({ title, urlPage }) => {
   return (
     <div className="button-border">

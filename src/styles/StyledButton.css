@@ -18,10 +18,10 @@
   color: white;
 }
 
-.button-border a,
-a:visited,
-a:focus,
-a:active {
+.button-border .button-content,
+.button-content:visited,
+.button-content:focus,
+.button-content:active {
   text-decoration: none;
   color: inherit;
   outline: none;

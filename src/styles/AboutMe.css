@@ -1,0 +1,19 @@
+.about-me {
+  position: relative;
+  top: 5rem;
+}
+
+.about__title {
+  display: flex;
+  font-size: 36px;
+  font-weight: 700;
+  color: #b3b3b3;
+}
+
+.about-me p {
+  font-size: 20px;
+  color: #b3b3b3;
+  margin-top: 1rem;
+  text-wrap: balance;
+  line-height: 1.6;
+}

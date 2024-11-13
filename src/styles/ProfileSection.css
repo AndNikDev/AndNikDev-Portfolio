@@ -1,0 +1,67 @@
+.profile__section {
+  display: flex;
+  align-items: end;
+}
+
+.profile__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  position: relative;
+  left: 0;
+}
+
+.profile__img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid #7414c3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  object-position: center bottom;
+  transform: scale(1.2);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  position: relative;
+  left: 1rem;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .profile__img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.profile__user {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 2rem;
+  bottom: -0.7rem;
+}
+
+.profile__user h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.profile__user span {
+  margin-top: 0.5rem;
+}
+
+.profile__user__typeanimation {
+  font-weight: 700;
+}
+
+.profile__socialmedia {
+  margin-top: 1.5rem;
+  font-size: bold;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #b3b3b3;
+}

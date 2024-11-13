@@ -4,6 +4,7 @@
   width: 100%;
   height: 7.5vh;
   position: fixed;
+  z-index: 9999;
 }
 
 .navbar__logo {
@@ -26,7 +27,7 @@
 }
 
 .navbar__logo_1 {
-  background: linear-gradient(270deg, #8447FF, #7414c3, #8447FF);
+  background: linear-gradient(270deg, #9a67ff, #8447ff, #7414c3, #570b96);
   background-size: 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,8 +38,14 @@
   0% {
     background-position: 0%;
   }
+  25% {
+    background-position: 50%;
+  }
   50% {
     background-position: 100%;
+  }
+  75% {
+    background-position: 50%;
   }
   100% {
     background-position: 0%;

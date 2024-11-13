@@ -130,3 +130,16 @@ body {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
+
+.container {
+  position: relative;
+  top: 7.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
