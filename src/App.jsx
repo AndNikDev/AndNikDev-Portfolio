@@ -14,6 +14,8 @@ function App() {
         <AboutMe />
         <ContactMe />
         {/* <Footer /> */}
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        este es un mensajito para mi novia hermosa que la amo tanto a mi ninia chiquita hermosa bb
       </div>
     </div>
   );
