@@ -1,5 +1,5 @@
-import StyledButton from "./StyledButton";
-import "../styles/ContactMe.css";
+import StyledButton from "../components/StyledButton";
+import "../assets/styles/ContactMe.css";
 
 const ContactMe = () => {
   const email = "andrewmunoz.job@yahoo.com";

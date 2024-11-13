@@ -1,4 +1,4 @@
-import "../styles/ProfileSection.css";
+import "../assets/styles/ProfileSection.css";
 import { FaLinkedinIn, FaGithub, FaSpotify, FaSteam } from "react-icons/fa";
 import { SiEpicgames } from "react-icons/si";
 import { TypeAnimation } from "react-type-animation";
@@ -8,7 +8,7 @@ const ProfileSection = () => {
     <div className="profile__section">
       <div id="profile__photo">
         <img
-          src="/assets/fotodeperfil.jpeg"
+          src="https://drive.google.com/file/d/1vaD4I4YaoqbHIKpfTFpxIh4eVhI4rvAB/view?usp=drive_link"
           alt="Profile Photo"
           className="profile__img"
         />

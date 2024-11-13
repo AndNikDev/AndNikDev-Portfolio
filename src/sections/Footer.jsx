@@ -1,4 +1,4 @@
-import "../styles/Footer.css";
+import "../assets/styles/Footer.css";
 
 const Footer = () => {
   return <div className="pene">Footer</div>;

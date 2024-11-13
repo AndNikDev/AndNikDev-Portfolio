@@ -1,11 +1,9 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import ProfileSection from "./components/ProfileSection";
-import AboutMe from "./components/AboutMe";
-
-import ContactMe from "./components/ContactMe";
-
-import Footer from "./components/Footer";
+import "./assets/styles/App.css"
+import Navbar from "./sections/Navbar";
+import ProfileSection from "./sections/ProfileSection";
+import AboutMe from "./sections/AboutMe";
+import ContactMe from "./sections/ContactMe";
+import Footer from "./sections/Footer";
 
 function App() {
   return (

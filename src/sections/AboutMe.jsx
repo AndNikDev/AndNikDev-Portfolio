@@ -1,11 +1,11 @@
 import { BsPersonRaisedHand } from "react-icons/bs";
-import "../styles/AboutMe.css";
+import "../assets/styles/AboutMe.css";
 
 const AboutMe = () => {
   return (
     <div className="about-me">
       <div className="about__title">
-        <h1>I&apos;m Niko!</h1>
+        <h1>I&apos;m Nikolayk!</h1>
         <BsPersonRaisedHand />
       </div>
       <p>

@@ -1,4 +1,4 @@
-import "../styles/StyledButton.css";
+import "../assets/styles/StyledButton.css";
 
 // eslint-disable-next-line react/prop-types
 const StyledButton = ({ title, urlPage }) => {
