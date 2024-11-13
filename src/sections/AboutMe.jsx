@@ -1,4 +1,4 @@
-import { BsPersonRaisedHand } from "react-icons/bs";
+// import { BsPersonRaisedHand } from "react-icons/bs";
 import "../assets/styles/AboutMe.css";
 
 const AboutMe = () => {
