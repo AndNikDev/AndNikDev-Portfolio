@@ -3,7 +3,7 @@ import Navbar from "./sections/Navbar";
 import ProfileSection from "./sections/ProfileSection";
 import AboutMe from "./sections/AboutMe";
 import ContactMe from "./sections/ContactMe";
-import Footer from "./sections/Footer";
+//import Footer from "./sections/Footer";
 
 function App() {
   return (
