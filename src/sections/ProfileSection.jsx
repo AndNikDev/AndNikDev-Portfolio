@@ -8,7 +8,7 @@ const ProfileSection = () => {
     <div className="profile__section">
       <div id="profile__photo">
         <img
-          src="https://i.imgur.com/PheI5Xd.jpeg"
+          srcSet="https://i.imgur.com/PheI5Xd.jpeg"
           alt="Profile Photo"
           className="profile__img"
         /> 

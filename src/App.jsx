@@ -19,9 +19,9 @@ function App() {
         <ProfileSection />
         <Hero />
         <Experience />
-        {/* <Projects />
+        <Projects />
         <Skills />
-        <About /> */}
+        <About />
       </div>
 
       <div className="footer">
