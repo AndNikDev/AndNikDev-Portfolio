@@ -11,7 +11,8 @@ const ProfileSection = () => {
           srcSet="https://i.imgur.com/PheI5Xd.jpeg"
           alt="Profile Photo"
           className="profile__img"
-        /> 
+          loading="lazy"
+        />
       </div>
 
       <div className="profile__user">
