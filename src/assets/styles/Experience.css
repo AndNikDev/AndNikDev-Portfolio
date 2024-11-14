@@ -1,0 +1,9 @@
+.experience__section {
+  position: relative;
+  top: 10rem;
+}
+
+.experience__title {
+  font-size: 2rem;
+  margin-top: 4rem;
+}
