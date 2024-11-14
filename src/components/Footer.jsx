@@ -1,7 +1,7 @@
 import "../assets/styles/Footer.css";
 
 const Footer = () => {
-  return <div className="pene">Footer</div>;
+  return <footer></footer>;
 };
 
 export default Footer;

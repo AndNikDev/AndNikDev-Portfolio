@@ -8,10 +8,10 @@ const ProfileSection = () => {
     <div className="profile__section">
       <div id="profile__photo">
         <img
-          src="https://drive.google.com/file/d/1vaD4I4YaoqbHIKpfTFpxIh4eVhI4rvAB/view?usp=drive_link"
+          src="https://i.imgur.com/PheI5Xd.jpeg"
           alt="Profile Photo"
           className="profile__img"
-        />
+        /> 
       </div>
 
       <div className="profile__user">
@@ -42,11 +42,11 @@ const ProfileSection = () => {
         </span>
 
         <div className="profile__socialmedia">
-          <a href="">
+          <a href="https://linkedin.com/in/nikolaykmunozalvarez">
             <FaLinkedinIn color="white" />
           </a>
 
-          <a href="">
+          <a href="https://github.com/AndNikDev">
             <FaGithub color="white" />
           </a>
 
