@@ -14,7 +14,6 @@ function App() {
         <AboutMe />
         <ContactMe />
         {/* <Footer /> */}
-        <br /><br /><br /><br /><br /><br /><br /><br />
         
       </div>
     </div>

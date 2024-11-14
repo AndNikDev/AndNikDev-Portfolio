@@ -12,8 +12,6 @@ const AboutMe = () => {
         Passionate about design and data, currently studying Data Engineering
         with Python. Tech enthusiast committed to staying updated with the
         latest technologies and contributing to their evolution.
-
-        este es un mensajito para mi novia hermosa que la amo tanto a mi ninia chiquita hermosa bb
       </p>
     </div>
   );
