@@ -2,16 +2,19 @@ import "../assets/styles/ProfileSection.css";
 import { FaLinkedinIn, FaGithub, FaSpotify, FaSteam } from "react-icons/fa";
 import { SiEpicgames } from "react-icons/si";
 import { TypeAnimation } from "react-type-animation";
+import prfImg from "../assets/images/fotodeperfil.webp";
 
 const ProfileSection = () => {
   return (
     <div className="profile__section">
       <div id="profile__photo">
         <img
-          srcSet="https://i.imgur.com/PheI5Xd.jpeg"
+          srcSet={prfImg}
           alt="Profile Photo"
           className="profile__img"
           loading="lazy"
+          width={110}
+          height={110}
         />
       </div>
 
