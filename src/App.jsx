@@ -1,33 +1,23 @@
 import "./assets/styles/App.css";
-import Navbar from "./components/Navbar";
-import ProfileSection from "./sections/ProfileSection";
-import Hero from "./sections/Hero";
-import Experience from "./sections/Experience";
-import Projects from "./sections/Projects";
-import Skills from "./sections/Skills";
-import About from "./sections/About";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
-    <div className="app">
-      <div className="header">
-        <Navbar />
-      </div>
+    <>
+      <header className="nav__">
+        <Header />
+      </header>
 
-      <div className="content">
-        <ProfileSection />
+      <main className="main__">
         <Hero />
-        <Experience />
-        <Projects />
-        <Skills />
-        <About />
-      </div>
+      </main>
 
-      <div className="footer">
+      <footer className="foot__">
         <Footer />
-      </div>
-    </div>
+      </footer>
+    </>
   );
 }
 

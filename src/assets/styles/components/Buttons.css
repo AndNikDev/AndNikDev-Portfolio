@@ -1,0 +1,62 @@
+.outline {
+  position: relative;
+  top: 7rem;
+  border: 2px solid var(--pr-color);
+  background: transparent;
+  color: white; /* Texto blanco por defecto */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.fill {
+  position: relative;
+  top: 7rem;
+  border: 2px solid var(--pr-color);
+  background: var(--pr-color);
+  color: black; /* Texto negro por defecto */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+/* Efectos Hover */
+.outline:hover {
+  color: black; /* Cambia el texto a negro */
+  background: cyan; /* Cambia el fondo a cyan */
+}
+
+.fill:hover {
+  color: white; /* Cambia el texto a blanco */
+  background: transparent; /* Hace el fondo transparente */
+}
+
+/* Reglas específicas para enlaces dentro de los botones */
+.outline a,
+.fill a {
+  text-decoration: none;
+  color: inherit; /* Hereda el color del botón */
+  display: block;
+  width: 100%; /* Asegura que el enlace ocupe todo el botón */
+  height: 100%;
+}
+
+.hero__buttons {
+  max-width: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-content: start;
+}

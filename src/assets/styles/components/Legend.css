@@ -1,0 +1,19 @@
+.legend {
+  position: relative;
+  top: 4rem;
+}
+
+.legend__title {
+  font-size: var(--title-font-size);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.legend__text {
+  text-wrap: balance;
+  font-size: var(--common-font-size);
+  margin-top: 1rem;
+  line-height: 1.4;
+  color: var(--sc-txt-color);
+}
+

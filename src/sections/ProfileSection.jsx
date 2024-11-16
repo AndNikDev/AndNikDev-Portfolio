@@ -13,8 +13,6 @@ const ProfileSection = () => {
           alt="Profile Photo"
           className="profile__img"
           loading="lazy"
-          width={110}
-          height={110}
         />
       </div>
 

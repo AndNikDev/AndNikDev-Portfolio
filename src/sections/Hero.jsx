@@ -1,25 +1,32 @@
-// import { BsPersonRaisedHand } from "react-icons/bs";
-import "../assets/styles/Hero.css";
-import StyledButton from "../components/StyledButton";
+import React from "react";
+import Profile from "../components/Profile";
+import Legend from "../components/Legend";
+import MyButtons from "../components/MyButtons";
 
 const Hero = () => {
   const email = "andrewmunoz.job@yahoo.com";
   return (
-    <div className="hero__section">
-      <div className="about__title">
-        <h1>Hi there, I&apos;m Nikolayk! </h1>
+    <section className="sections hero">
+      <Profile />
+      <Legend
+        title="Hi there!"
+        text="Software developer with over **two years** of experience in creating web pages. From **Costa Rica** to the world specializing in developing **unique web applications**."
+      />
+      <div className="hero__buttons">
+        <MyButtons
+          link={`mailto:${email}`}
+          typeB="outline gap"
+          title="Contact me"
+        />
+        <MyButtons
+          link={`mailto:${email}`}
+          typeB="fill gap"
+          title="Download CV"
+        />
+        {/*! el tipo de boton depende de si se quiere relleno o vacio, para eso existe
+      fill y outline */}
       </div>
-      <p>
-        A Frontend Developer with over a year of experience creating web pages.
-        Passionate about design and data, currently studying Data Engineering
-        with Python. Tech enthusiast committed to staying updated with the
-        latest technologies and contributing to their evolution.
-      </p>
-      <div className="contact__buttons">
-        <StyledButton title="Contact me" urlPage={`mailto:${email}`} />
-        <StyledButton title="Download CV" />
-      </div>
-    </div>
+    </section>
   );
 };
 
