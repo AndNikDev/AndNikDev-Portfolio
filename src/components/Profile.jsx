@@ -36,7 +36,7 @@ const Profile = () => {
               wrapper="span"
               cursor={true}
               repeat={Infinity}
-              style={{ color: "#00ffff" }}
+              style={{ color: "#88c0d0" }}
               className="profile__user__typeanimation"
             />
           </p>

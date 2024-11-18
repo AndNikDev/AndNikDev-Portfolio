@@ -130,23 +130,34 @@ table {
 }
 
 :root {
-  --pr-color: #00ffff;
-  --fr-bg-color: #23234d;
-  --sc-bg-color: #141414;
-  --fr-txt-color: #ffffff;
-  --sc-txt-color: #d1d5db;
-  --tr-txt-color: #b3b3b3;
-  --title-font-size: 3rem;
-  --sc-title-font-size: 2.5rem;
-  --common-font-size: 1.3rem;
+  /* Polar Night (Fondos oscuros) */
+  --background-primary: #2e3440; /* Fondo principal de la página */
+  --background-secondary: #3b4252; /* Fondos secundarios, tarjetas */
+  --background-tertiary: #434c5e; /* Resaltados secundarios */
+
+  /* Snow Storm (Colores claros) */
+  --text-primary: #eceff4; /* Títulos principales */
+  --text-secondary: #e5e9f0; /* Subtítulos */
+  --text-muted: #d8dee9; /* Texto plano y descripciones */
+
+  /* Frost (Colores vibrantes para destacar) */
+  --accent-primary: #88c0d0; /* Botones, enlaces */
+  --accent-hover: #81a1c1; /* Hover para enlaces o botones */
+  --border-accent: #5e81ac; /* Bordes decorativos o líneas */
+
+  /* Extras */
+  --shadow-color: rgba(0, 0, 0, 0.2); /* Sombra para elementos */
+  --border-radius: 8px; /* Borde redondeado estándar */
+  --container-padding: 1.5rem; /* Padding estándar para contenedores */
+
+  /* Tipografías */
+  --title-font-size: 2.5rem; /* Tamaño de los títulos principales */
+  --subtitle-font-size: 2rem; /* Tamaño de los subtítulos */
+  --text-font-size: 1.2rem; /* Tamaño del texto plano */
 }
 
 body {
-  background: linear-gradient(
-    to bottom,
-    var(--fr-bg-color),
-    var(--sc-bg-color)
-  );
+  background: linear-gradient(to bottom, #4c566a, #2e3440);
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #ffffff;
@@ -166,7 +177,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  top: 16rem;
+  top: 15rem;
 }
 
 .scroll-buttons {

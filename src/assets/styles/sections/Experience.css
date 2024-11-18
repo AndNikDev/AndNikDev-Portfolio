@@ -1,4 +1,13 @@
-.experience {
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  top: 16rem;
+  top: 27rem;
+  width: 100%;
+}
+
+.experience-legend{
+  font-size: var(--subtitle-font-size);
+  position: relative;
+  bottom: 4rem;
 }

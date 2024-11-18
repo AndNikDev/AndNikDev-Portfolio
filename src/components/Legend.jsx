@@ -8,7 +8,7 @@ const parseText = (text) => {
   return parts.map((part, index) => {
     if (part.startsWith("**") && part.endsWith("**")) {
       return (
-        <span key={index} style={{ color: "#00ffff", fontWeight: "bold" }}>
+        <span key={index} style={{ color: "#88c0d0", fontWeight: "bold" }}>
           {part.slice(2, -2)}
         </span>
       );

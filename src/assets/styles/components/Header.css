@@ -3,7 +3,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: rgba(26, 26, 26, 0.5);
+  background-color: rgba(46, 52, 64, 0.5);
   backdrop-filter: blur(10px);
 }
 
@@ -19,7 +19,7 @@
   font-size: 1.5rem;
   font-weight: 700;
 
-  background: linear-gradient(270deg, #9a67ff, #8447ff, #7414c3, #570b96);
+  background: linear-gradient(270deg, var(--accent-primary), var(--accent-hover), var(--border-accent), #762db2);
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -62,7 +62,7 @@
 }
 
 .nav__link {
-  color: var(--sc-txt-color);
+  color: var(--text-secondary);
   text-decoration: none;
 }
 

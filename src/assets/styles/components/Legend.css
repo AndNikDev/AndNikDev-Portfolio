@@ -11,9 +11,9 @@
 
 .legend__text {
   text-wrap: balance;
-  font-size: var(--common-font-size);
+  font-size: var(--text-font-size);
   margin-top: 1rem;
   line-height: 1.4;
-  color: var(--sc-txt-color);
+  color: var(--text-muted);
 }
 
